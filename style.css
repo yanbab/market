@@ -1,0 +1,41 @@
+/* general */
+
+body {
+    background: white;
+    color: black;
+    font-family: sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration : none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+/* Icons */
+
+ul.icons li {
+    text-align: center;
+    padding-right: 1em;
+    width:96px;
+    height:96px;
+}
+
+ul.icons img{
+    height: 32px;
+    width: 32px;
+}
+
+ul.icons div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
