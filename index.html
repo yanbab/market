@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app>
     <head>
         <meta charset="utf-8"/>        
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
@@ -10,23 +10,11 @@
         <script src="app.js"></script>
     </head>
     <body>
-        <ul class="icons">
-            <li>
-                <a target="_twitter" href="http://mobile.twitter.com">
-                    <div><img src="http://mobile.twitter.com/favicon.ico"></div>
-                    <div>Twitter</div>
-                </a>
-            </li>
-            <li>
-                <a target="_facebook" href="http://www.facebook.com/mobile/">
-                    <div><img src="http://www.facebook.com/favicon.ico"></div>
-                    <div>Facebook</div>
-                </a>
-            </li>
-            <li>
-                <a target="_twitter" href="http://m.soundcloud.com">
-                    <div><img src="http://m.soundcloud.com/favicon.ico"></div>
-                    <div>SoundCloud</div>
+        <ul class="icons" ng-controller="appCtrl">
+            <li ng-repeat="app in apps">
+                <a target="_{{app.name}}" href="{{app.url}}">
+                    <div><img src="{{app.icon}}"></div>
+                    <div>{{app.title}}</div>
                 </a>
             </li>
         </ul>
