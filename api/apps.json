@@ -1,5 +1,6 @@
 [
         { "name": "facebook",   "title": "Facebook",    "url": "http://m.facebook.com", "icon": "http://m.facebook.com/favicon.ico"},
         { "name": "twitter",   "title": "Twitter",    "url": "http://mobile.twitter.com", "icon": "http://mobile.twitter.com/favicon.ico"},
-        { "name": "soundcloud",   "title": "SoundCloud",    "url": "http://m.soundcloud.com", "icon": "http://m.soundcloud.com/favicon.ico"}
+        { "name": "soundcloud",   "title": "SoundCloud",    "url": "http://m.soundcloud.com", "icon": "http://m.soundcloud.com/favicon.ico"},
+        { "name": "music",   "title": "Music",    "url": "http://play.google.com/music/", "icon": "https://ssl.gstatic.com/music/fe/43e18367d2c7c08cdb84b35d14f13ec6/favicon.ico"}
 ]
