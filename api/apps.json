@@ -1,0 +1,5 @@
+[
+        { "name": "facebook",   "title": "Facebook",    "url": "http://m.facebook.com", "icon": "http://m.facebook.com/favicon.ico"},
+        { "name": "twitter",   "title": "Twitter",    "url": "http://mobile.twitter.com", "icon": "http://mobile.twitter.com/favicon.ico"},
+        { "name": "soundcloud",   "title": "SoundCloud",    "url": "http://m.soundcloud.com", "icon": "http://m.soundcloud.com/favicon.ico"}
+]
