@@ -2,21 +2,33 @@
 <html ng-app>
     <head>
         <meta charset="utf-8"/>        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1,maximum-scale=1,user-scalable=no" />
         <title>Market</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <script src="angular.js"></script>
         <script src="app.js"></script>
     </head>
-    <body>
-        <ul class="icons" ng-controller="appCtrl">
-            <li ng-repeat="app in apps">
-                <a target="_{{app.name}}" href="{{app.url}}">
-                    <div><img src="{{app.icon}}"></div>
-                    <div>{{app.title}}</div>
-                </a>
-            </li>
-        </ul>
+    <body ng-controller="appCtrl">
+            <header>
+                <input placeholder="Search"  ng-model="query.title">
+                <button class="btn" ng-click="showMenu=!showMenu">Menu</button>
+            </header>
+            <ul id="menu" class="menu" ng-show="showMenu"  ng-click="showMenu=0">
+                    <li ng-click="showDelete=!showDelete">Delete...</li>
+                    <li ng-click="reset()">Reset</li>
+                    <li ><label>Show all<input ng-model="showAll" type="checkbox"></label></li>
+            </ul>
+            <ul class="icons"  ng-click="showMenu=false">
+                <li ng-repeat="app in apps | filter:query | orderBy:order"  ng-hide="app.hide">
+                    <a target="_{{app.name}}" href="{{app.url}}">
+                        <div><img ng-src="{{app.icon}}" alt=""></div>
+                        <div>{{app.title}}</div>
+                    </a>
+                    <a ng-click="app.hide=1" ng-show="showDelete" class="close"></a>
+                </li>
+            </ul>
+            <div class="empty" ng-show="(apps|filter:query).length==0">:-(</div>
+
     </body>
 </html>

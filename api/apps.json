@@ -1,6 +1,100 @@
 [
-        { "name": "facebook",   "title": "Facebook",    "url": "http://m.facebook.com", "icon": "http://m.facebook.com/favicon.ico"},
-        { "name": "twitter",   "title": "Twitter",    "url": "http://mobile.twitter.com", "icon": "http://mobile.twitter.com/favicon.ico"},
-        { "name": "soundcloud",   "title": "SoundCloud",    "url": "http://m.soundcloud.com", "icon": "http://m.soundcloud.com/favicon.ico"},
-        { "name": "music",   "title": "Music",    "url": "http://play.google.com/music/", "icon": "https://ssl.gstatic.com/music/fe/43e18367d2c7c08cdb84b35d14f13ec6/favicon.ico"}
+  {
+    "name": "facebook",
+    "title": "Facebook",
+    "url": "https://m.facebook.com",
+    "icon": "https://marketplace.cdn.mozilla.net/img/uploads/addon_icons/421/421872-64.png?modified=1361407592",
+    "category": "social"
+  },
+  {
+    "name": "twitter",
+    "title": "Twitter",
+    "url": "https://mobile.twitter.com",
+    "icon": "https://marketplace.cdn.mozilla.net/img/uploads/addon_icons/393/393011-64.png",
+    "category": "social"
+  },
+  {
+    "name": "soundcloud",
+    "title": "SoundCloud",
+    "url": "http://m.soundcloud.com",
+    "icon": "https://marketplace.cdn.mozilla.net/img/uploads/addon_icons/366/366345-64.png?modified=1359559884",
+    "category": "music"
+  },
+  {
+    "name": "wikipedia",
+    "title": "Wikipedia",
+    "url": "http://en.m.wikipedia.org/",
+    "icon": "https://marketplace.cdn.mozilla.net/img/uploads/addon_icons/404/404807-64.png?modified=1359559881",
+    "category": "music"
+  },
+  {
+    "name": "drive",
+    "title": "Drive",
+    "url": "https://drive.google.com/fe/m",
+    "icon": "http://rocketdock.com/images/screenshots/Google-Drive.png",
+    "category": "productivity"
+  },
+  {
+    "name": "dropbox",
+    "title": "Dropbox",
+    "url": "https://www.dropbox.com/m",
+    "icon": "http://applingua.com/devzone/wp-content/uploads/2011/05/dropbox.png",
+    "category": "productivity"
+  },
+  {
+    "name": "gmail",
+    "title": "Gmail",
+    "url": "https://mail.google.com/mail/mu/mp/426/",
+    "icon": "http://itricks4ios.com/wp-content/uploads/2012/05/Gmail-icon.png",
+    "category": "mail"
+  },
+  {
+    "name": "agenda",
+    "title": "Agenda",
+    "url": "https://www.google.com/calendar/gpcal",
+    "icon": "http://cdn1.iconfinder.com/data/icons/google_jfk_icons_by_carlosjj/512/calendar.png",
+    "category": "mail"
+  },  
+  {
+    "name": "maps",
+    "title": "Maps",
+    "url": "https://maps.google.com",
+    "icon": "http://cdn1.iconfinder.com/data/icons/Android-R2-png/512/Maps-Android-R.png",
+    "category": "travel"
+  },
+  {
+    "name": "jolidrive",
+    "title": "Jolidrive",
+    "url": "https://my.jolicloud.com/",
+    "icon": "https://marketplace.cdn.mozilla.net/img/uploads/addon_icons/375/375680-64.png",
+    "category": "productivity"
+  },
+  {
+    "name": "tuts",
+    "title": "Tuts+",
+    "url": "http://hub.tutsplus.com/",
+    "icon": "http://hub.tutsplus.com/assets/favicon-96ef151bbc5ad24f72c29ff550d14941.png",
+    "category": "productivity"
+  },
+  {
+    "name": "liberation",
+    "title": "Libération",
+    "url": "http://mobile.liberation.com/",
+    "icon": "http://cdn.marketplaceimages.windowsphone.com/v8/images/9f5a02e1-be53-441e-b705-7cecf02e96aa?imageType=ws_icon_large",
+    "category": "news"
+  },
+  {
+    "name": "lemonde",
+    "title": "Le Monde",
+    "url": "http://mobile.lemonde.fr/",
+    "icon": "http://cdn.marketplaceimages.windowsphone.com/v8/images/c642272f-3ffb-492e-b629-afae9c7ba093",
+    "category": "news"
+  },
+  {
+    "name": "music",
+    "title": "Play Music",
+    "url": "https://play.google.com/music/",
+    "icon": "http://cdn.androidpolice.com/wp-content/uploads/2013/03/nexusae0_music_thumb.png",
+    "category": "music"
+  }
 ]
