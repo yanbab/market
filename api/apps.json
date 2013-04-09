@@ -14,6 +14,13 @@
     "category": "social"
   },
   {
+    "name": "translate",
+    "title": "Translate",
+    "url": "http://translate.google.com/m/translate",
+    "icon": "https://maretplace.cdn.mozilla.net/img/uploads/addon_icons/393/393011-64.png",
+    "category": "social"
+  },
+  {
     "name": "soundcloud",
     "title": "SoundCloud",
     "url": "http://m.soundcloud.com",
@@ -58,7 +65,7 @@
   {
     "name": "maps",
     "title": "Maps",
-    "url": "https://maps.google.com",
+    "url": "https://maps.google.com/maps?source=mog",
     "icon": "http://cdn1.iconfinder.com/data/icons/Android-R2-png/512/Maps-Android-R.png",
     "category": "travel"
   },
@@ -73,14 +80,14 @@
     "name": "tuts",
     "title": "Tuts+",
     "url": "http://hub.tutsplus.com/",
-    "icon": "http://hub.tutsplus.com/assets/favicon-96ef151bbc5ad24f72c29ff550d14941.png",
+    "icon": "http://hub.tutsplus.com/assets/apple-touch-icon-4b69217078b44205858f7de384180c04.png",
     "category": "productivity"
   },
   {
     "name": "liberation",
     "title": "Libération",
-    "url": "http://mobile.liberation.com/",
-    "icon": "http://cdn.marketplaceimages.windowsphone.com/v8/images/9f5a02e1-be53-441e-b705-7cecf02e96aa?imageType=ws_icon_large",
+    "url": "http://m.liberation.com/",
+    "icon": "http://m.liberation.com/favicon.ico",
     "category": "news"
   },
   {
@@ -89,6 +96,20 @@
     "url": "http://mobile.lemonde.fr/",
     "icon": "http://cdn.marketplaceimages.windowsphone.com/v8/images/c642272f-3ffb-492e-b629-afae9c7ba093",
     "category": "news"
+  },
+  {
+    "name": "linkedin",
+    "title": "LinkedIn",
+    "url": "https://touch.www.linkedin.com/",
+    "icon": "http://latinosmallbusinesowner.typepad.com/photos/blog_/linkedin-icon.png",
+    "category": "social"
+  },  
+  {
+    "name": "pinterest",
+    "title": "Pinterest",
+    "url": "https://m.pinterest.com/",
+    "icon": "http://icons.iconarchive.com/icons/danleech/simple/256/pinterest-icon.png",
+    "category": "social"
   },
   {
     "name": "music",

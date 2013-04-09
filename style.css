@@ -44,24 +44,31 @@ ul.icons div {
   line-height: 1.5em;
 }
 a.close {
-    background:black;
-    border:solid white 3px;
-    border-radius: 16px;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top:0px;
+    left:0px;
+}
+a.close:after {
+    position: absolute;
     width:16px;
     height: 16px;
+    top:12px;
+    right:12px;
+    border:solid white 2px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 4px black;
     font-size:12px;
-    line-height:16px;
-    display:block;
+    line-height:16px;    
+    background:black;
     color:white;
     text-align: center;
-    box-shadow: 1px 1px 4px black;
-    position: absolute;
-    top:6px;
-    right:6px;
 }
  a.close:after {
     content:'✖';
 }
+
 .empty {
     font-size:150px;
     text-align:center;
@@ -69,20 +76,19 @@ a.close {
 }
 
 /* header */
-
-header {
+.header {
     position:fixed;
     top:0;
     height:44px;
     width: 100%;
-    background:rgba(0,0,0,.5);
+    background:rgba(0,0,0,.75);
     z-index:2;
 }
 
-body {
+.content {
     margin-top: 44px;
 }
-header input {
+.header input {
     border:none;
     background:transparent;
     color:white;
@@ -92,6 +98,7 @@ header input {
     margin:0;
     padding:6px;
     padding-left:16px;
+    outline: 0;
 }
 
  .btn {
@@ -106,15 +113,15 @@ header input {
     padding:0 16px;
     cursor:pointer;
 }
-header .btn {
+.header .btn {
     float:right;
     background: none;
 }
 
 /* menu */
 
-.menu {
-    display:none;
+.menu {/*
+    display:none;*/
     background: white;
     position:fixed;
     right:10px;
@@ -128,14 +135,12 @@ header .btn {
 
 .menu li {
     display:block;
-    line-height:30px;
-    padding:.5em;
+    line-height:24px;
+    padding:.5em 1em;
 }
 .menu li:hover {
     background-color: rgba(0,0,0,.1)
 }
 .menu input {
     float:right;
-    margin:5px 10px;
 }
-
